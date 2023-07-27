@@ -1,4 +1,12 @@
 :root {
+  --background: 22, 22, 22;
+
+  --font-primary: 154, 154, 154;
+  --font-secondary: 220, 220, 220;
+  --font-label: 218, 173, 1;
+
+  --gradient-start: 61, 61, 61;
+  --gradient-end: 22, 22, 22;
 }
 
 * {
@@ -9,8 +17,16 @@
 
 html,
 body {
+  color: rgb(var(--font-primary));
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: rgb(var(--background));
+  background-image: radial-gradient(
+    rgb(var(--gradient-start)) 0.5px,
+    rgb(var(--gradient-end)) 0.5px
+  );
+  background-size: 25px 25px;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {

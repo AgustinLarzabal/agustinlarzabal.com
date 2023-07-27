@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  gap: 5rem;
+  max-width: 75rem;
+  height: 100vh;
+  padding: 4rem 2rem;
+  margin-inline: auto;
+}
+
+.intro {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 40rem;
+}
+
+.intro p {
+  text-wrap: balance;
+  line-height: 1.5;
+}
+
+.label {
+  color: rgb(var(--font-label));
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.h1 {
+  color: rgb(var(--font-secondary));
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  gap: 3rem;
+}
+
+.link {
+  font-size: 0.875rem;
+  font-weight: 400;
+  transition: color 300ms ease;
+}
+
+.link:hover {
+  color: rgb(var(--font-secondary));
+}
