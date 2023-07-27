@@ -4,7 +4,7 @@
   justify-content: space-between;
   gap: 5rem;
   max-width: 75rem;
-  height: 100vh;
+  height: 100dvh;
   padding: 4rem 2rem;
   margin-inline: auto;
 }
@@ -33,7 +33,7 @@
 
 .h1 {
   color: rgb(var(--font-secondary));
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -51,4 +51,10 @@
 
 .link:hover {
   color: rgb(var(--font-secondary));
+}
+
+@media (min-width: 48rem) {
+  .h1 {
+    font-size: 2.5rem;
+  }
 }
