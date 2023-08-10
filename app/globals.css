@@ -6,7 +6,6 @@
   --font-label: 218, 173, 1;
 
   --gradient-start: 61, 61, 61;
-  --gradient-end: 22, 22, 22;
 }
 
 * {
@@ -23,7 +22,7 @@ body {
   background-color: rgb(var(--background));
   background-image: radial-gradient(
     rgb(var(--gradient-start)) 0.5px,
-    rgb(var(--gradient-end)) 0.5px
+    transparent 0
   );
   background-size: 25px 25px;
   -webkit-font-smoothing: antialiased;
